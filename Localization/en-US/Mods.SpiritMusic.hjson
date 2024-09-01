@@ -1,0 +1,60 @@
+Configs: {
+	MusicConfig: {
+		DisplayName: Music Configuration
+
+		Blizzard: {
+			Label: Blizzard
+			Tooltip: Toggles the Blizzard's ("Shivering Storms") music.
+		}
+
+		CorruptNight: {
+			Label: Corrupt Night
+			Tooltip: Toggles the Corrupt Night's ("Nightmare Fuel") music.
+		}
+
+		CrimsonNight: {
+			Label: Crimson Night
+			Tooltip: Toggles the Crimson Night's ("Shivering Storms") music.
+		}
+
+		SnowNight: {
+			Label: Snow Night
+			Tooltip: Toggles the Snow Night's ("Icy Storms") music.
+		}
+
+		HallowNight: {
+			Label: Hallow Night
+			Tooltip: Toggles the Hallow Night ("Wonderous Landscape") music.
+		}
+
+		DesertNight: {
+			Label: Desert Night
+			Tooltip: Toggles the Desert Night ("Kempt Dunes") music.
+		}
+
+		FrostLegion: {
+			Label: Frost Legion
+			Tooltip: Toggles the Frost Legion's ("Kempt Dunes") music.
+		}
+
+		Granite: {
+			Label: Granite
+			Tooltip: Toggles the Granite biome's ("Resounding Stones") music.
+		}
+
+		Marble: {
+			Label: Marble
+			Tooltip: Toggles the Marble biome's ("Regal Tunnel") music.
+		}
+
+		Meteor: {
+			Label: Meteor
+			Tooltip: Toggles the Meteorite biome's ("Space Rocks!") music.
+		}
+
+		Spider: {
+			Label: Spider
+			Tooltip: Toggles the Spider Cave's ("Xyresic Horrors") music.
+		}
+	}
+}

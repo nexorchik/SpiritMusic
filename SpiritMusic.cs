@@ -1,15 +1,36 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ModLoader;
+global using Terraria.ModLoader;
+global using Terraria;
 
-namespace SpiritMusic
+using Terraria.Localization;
+
+namespace SpiritMusic;
+
+public class SpiritMusic : Mod
 {
-	// Please read https://github.com/tModLoader/tModLoader/wiki/Basic-tModLoader-Modding-Guide#mod-skeleton-contents for more information about the various files in a mod.
-	public class SpiritMusic : Mod
-	{
+    public override void PostSetupContent()
+    {
+        if (!ModLoader.TryGetMod("MusicDisplay", out Mod display))
+            return;
 
-	}
+        LocalizedText modName = Language.GetText("Mods.SpiritMusic.MusicDisplay.ModName");
+
+        void AddMusic(string name)
+        {
+            LocalizedText author = Language.GetText("Mods.SpiritMusic.MusicDisplay." + name + ".Author");
+            LocalizedText displayName = Language.GetText("Mods.SpiritMusic.MusicDisplay." + name + ".DisplayName");
+            display.Call("AddMusic", (short)MusicLoader.GetMusicSlot(this, "Sounds/Music/" + name), displayName, author, modName);
+        }
+
+        AddMusic("Blizzard");
+        AddMusic("CorruptNight");
+        AddMusic("CrimsonNight");
+        AddMusic("DesertNight");
+        AddMusic("FrostLegion");
+        AddMusic("Granite");
+        AddMusic("HallowNight");
+        AddMusic("MarbleBiome");
+        AddMusic("Meteor");
+        AddMusic("SnowNight");
+        AddMusic("SpiderCave");
+    }
 }
