@@ -34,7 +34,7 @@ Configs: {
 
 		FrostLegion: {
 			Label: Frost Legion
-			Tooltip: Toggles the Frost Legion's ("Kempt Dunes") music.
+			Tooltip: Toggles the Frost Legion's ("Tougher Chill") music.
 		}
 
 		Granite: {
