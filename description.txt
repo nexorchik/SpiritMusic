@@ -1,1 +1,3 @@
-Modify this file with a description of your mod.
+The Spirit Music Mod allows you to listen to some Spirit OST without playing Spirit Classic or Reforged! Players can listen to all music for vanilla environments (e.g Snow Night, Corruption Night, and so on) with the Music Mod enabled.
+
+Downloading Spirit Reforged automatically downloads the Spirit Music Mod alongside it. However, Spirit Classic still contains all existing Spirit OST, so players who just want to play Classic need not download the music mod. If you want to listen to Spirit's many extra tracks while playing Reforged or other, non Spirit projects, download the Music Mod too!
