@@ -58,3 +58,65 @@ Configs: {
 		}
 	}
 }
+
+Items: {
+	BlizzardBoxItem: {
+		DisplayName: Blizzard Box Item
+		Tooltip: ""
+	}
+
+	CorruptNightBoxItem: {
+		DisplayName: Corrupt Night Box Item
+		Tooltip: ""
+	}
+
+	CrimsonNightBoxItem: {
+		DisplayName: Crimson Night Box Item
+		Tooltip: ""
+	}
+
+	DesertNightBoxItem: {
+		DisplayName: Desert Night Box Item
+		Tooltip: ""
+	}
+
+	FrostLegionBoxItem: {
+		DisplayName: Frost Legion Box Item
+		Tooltip: ""
+	}
+
+	GraniteBoxItem: {
+		DisplayName: Granite Box Item
+		Tooltip: ""
+	}
+
+	HallowNightBoxItem: {
+		DisplayName: Hallow Night Box Item
+		Tooltip: ""
+	}
+
+	MarbleBoxItem: {
+		DisplayName: Marble Box Item
+		Tooltip: ""
+	}
+
+	MeteorBoxItem: {
+		DisplayName: Meteor Box Item
+		Tooltip: ""
+	}
+
+	SkeletronPrimeBoxItem: {
+		DisplayName: Skeletron Prime Box Item
+		Tooltip: ""
+	}
+
+	SnowNightBoxItem: {
+		DisplayName: Snow Night Box Item
+		Tooltip: ""
+	}
+
+	SpiderCaveBoxItem: {
+		DisplayName: Spider Cave Box Item
+		Tooltip: ""
+	}
+}

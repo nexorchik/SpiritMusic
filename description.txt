@@ -1,1 +1,20 @@
-Modify this file with a description of your mod.
+--- Spirit Music ---
+
+This mod contains all of the music composed by Salvati and Sbubby for the Spirit Mod, now Spirit Classic and Spirit Reforged, that fits in base game.
+Both of the aforementioned mods will continue having their own music for their biomes, events, and so on.
+
+This mod also supports Music Display.
+
+Check out Salvati and Sbubby! Fantastic musicians.
+
+--
+Salvati:
+YouTube: https://www.youtube.com/@cyndacat76
+SoundCloud: https://soundcloud.com/cyndacat76
+--
+
+--
+Sbubby:
+YouTube: https://www.youtube.com/@Sbubby
+SoundCloud: https://soundcloud.com/sbubbyreal
+--

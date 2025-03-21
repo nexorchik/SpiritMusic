@@ -1,6 +1,7 @@
 ModName: Spirit Music
 Salvati: Salvati
 Sbubby: Sbubby
+By: By
 BySalvati: "{$By} {$Salvati}"
 
 Blizzard: {
@@ -56,4 +57,9 @@ SnowNight: {
 SpiderCave: {
 	DisplayName: Xyresic Horrors (Spider Cave Theme)
 	Author: "{$BySalvati}"
+}
+
+SkeletronPrime: {
+	DisplayName: Thermite Assault (Skeletron Prime Theme)
+	Author: "{$BySalvati}, {$Sbubby}"
 }

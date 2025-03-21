@@ -9,6 +9,19 @@ public class SpiritMusic : Mod
 {
     public override void PostSetupContent()
     {
+        LoadMusicBox("BlizzardBox", "Sounds/Music/Blizzard");
+        LoadMusicBox("CorruptNightBox", "Sounds/Music/CorruptNight");
+        LoadMusicBox("CrimsonNightBox", "Sounds/Music/CrimsonNight");
+        LoadMusicBox("DesertNightBox", "Sounds/Music/DesertNight");
+        LoadMusicBox("FrostLegionBox", "Sounds/Music/FrostLegion");
+        LoadMusicBox("GraniteBox", "Sounds/Music/Granite");
+        LoadMusicBox("HallowNightBox", "Sounds/Music/HallowNight");
+        LoadMusicBox("MarbleBox", "Sounds/Music/MarbleBiome");
+        LoadMusicBox("MeteorBox", "Sounds/Music/Meteor");
+        LoadMusicBox("SkeletronPrimeBox", "Sounds/Music/SkeletronPrime");
+        LoadMusicBox("SnowNightBox", "Sounds/Music/SnowNight");
+        LoadMusicBox("SpiderCaveBox", "Sounds/Music/SpiderCave");
+
         if (!ModLoader.TryGetMod("MusicDisplay", out Mod display))
             return;
 
@@ -32,5 +45,9 @@ public class SpiritMusic : Mod
         AddMusic("Meteor");
         AddMusic("SnowNight");
         AddMusic("SpiderCave");
+        AddMusic("SkeletronPrime");
     }
+
+    private void LoadMusicBox(string name, string path) 
+        => MusicLoader.AddMusicBox(this, MusicLoader.GetMusicSlot(this, path), Find<ModItem>(name + "Item").Type, Find<ModTile>(name).Type);
 }
