@@ -1,4 +1,7 @@
 --- Spirit Music ---
+music by salvati & sbubby
+icon by sal
+programming by gabehaswon
 
 This mod contains all of the music composed by Salvati and Sbubby for the Spirit Mod, now Spirit Classic and Spirit Reforged, that fits in base game.
 Both of the aforementioned mods will continue having their own music for their biomes, events, and so on.

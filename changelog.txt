@@ -1,0 +1,4 @@
+- Add in following tracks: 
+Blizzard, Corrupt Night, Crimson Night, Desert Night, Frost Legion, Granite, Hallow Night, Marble, Meteor, Skeletron Prime, Snow Night, Spider Cave
+- Adds in config for any and all of the above tracks
+- Adds in Music Display support for all of them

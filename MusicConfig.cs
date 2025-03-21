@@ -41,4 +41,7 @@ internal class MusicConfig : ModConfig
 
     [DefaultValue(true)]
     public bool Spider { get; set; }
+
+    [DefaultValue(true)]
+    public bool SkeletronPrime { get; set; }
 }

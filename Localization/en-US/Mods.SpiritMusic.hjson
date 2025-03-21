@@ -56,6 +56,11 @@ Configs: {
 			Label: Spider
 			Tooltip: Toggles the Spider Cave's ("Xyresic Horrors") music.
 		}
+
+		SkeletronPrime: {
+			Label: Skeletron Prime
+			Tooltip: ""
+		}
 	}
 }
 
