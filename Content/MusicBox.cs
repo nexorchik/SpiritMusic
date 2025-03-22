@@ -45,9 +45,15 @@ internal abstract class MusicBoxItem : ModItem
 {
     protected abstract int TileId { get; }
 
+    public override void SetStaticDefaults()
+    {
+        ItemID.Sets.CanGetPrefixes[Type] = false;
+        ItemID.Sets.ShimmerTransformToItem[Type] = ItemID.MusicBox;
+    }
+
     public override void SetDefaults()
     {
-        Item.DefaultToPlaceableTile(TileId);
+        Item.DefaultToMusicBox(TileId);
         Item.Size = new Vector2(32);
     }
 }

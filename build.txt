@@ -1,4 +1,4 @@
 displayName = Spirit Music Mod
 author = Team Spirit
-version = 1.0.0
+version = 1.0.0.1
 modSide = Client

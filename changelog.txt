@@ -1,4 +1,3 @@
-- Add in following tracks and their music boxes: 
-Blizzard, Corrupt Night, Crimson Night, Desert Night, Frost Legion, Granite, Hallow Night, Marble, Meteor, Skeletron Prime, Snow Night, Spider Cave
-- Adds in config for any and all of the above tracks
-- Adds in Music Display support for all of them
+1.0.0.1
+- Allows music boxes to be equipped to play their respective music
+- Allows music boxes to be shimmered into a default Music Box
