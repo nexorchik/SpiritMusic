@@ -66,62 +66,62 @@ Configs: {
 
 Items: {
 	BlizzardBoxItem: {
-		DisplayName: Blizzard Box Item
+		DisplayName: Music Box (Blizzard)
 		Tooltip: ""
 	}
 
 	CorruptNightBoxItem: {
-		DisplayName: Corrupt Night Box Item
+		DisplayName: Music Box (Corrupt Night)
 		Tooltip: ""
 	}
 
 	CrimsonNightBoxItem: {
-		DisplayName: Crimson Night Box Item
+		DisplayName: Music Box (Crimson Night)
 		Tooltip: ""
 	}
 
 	DesertNightBoxItem: {
-		DisplayName: Desert Night Box Item
+		DisplayName: Music Box (Desert Night)
 		Tooltip: ""
 	}
 
 	FrostLegionBoxItem: {
-		DisplayName: Frost Legion Box Item
+		DisplayName: Music Box (Frost Legion)
 		Tooltip: ""
 	}
 
 	GraniteBoxItem: {
-		DisplayName: Granite Box Item
+		DisplayName: Music Box (Granite)
 		Tooltip: ""
 	}
 
 	HallowNightBoxItem: {
-		DisplayName: Hallow Night Box Item
+		DisplayName: Music Box (Hallow Night)
 		Tooltip: ""
 	}
 
 	MarbleBoxItem: {
-		DisplayName: Marble Box Item
+		DisplayName: Music Box (Marble)
 		Tooltip: ""
 	}
 
 	MeteorBoxItem: {
-		DisplayName: Meteor Box Item
+		DisplayName: Music Box (Meteor)
 		Tooltip: ""
 	}
 
 	SkeletronPrimeBoxItem: {
-		DisplayName: Skeletron Prime Box Item
+		DisplayName: Music Box (Skeletron Prime)
 		Tooltip: ""
 	}
 
 	SnowNightBoxItem: {
-		DisplayName: Snow Night Box Item
+		DisplayName: Music Box (Snow Night)
 		Tooltip: ""
 	}
 
 	SpiderCaveBoxItem: {
-		DisplayName: Spider Cave Box Item
+		DisplayName: Music Box (Spider Cave)
 		Tooltip: ""
 	}
 }

@@ -1,3 +1,5 @@
-1.0.0.1
-- Allows music boxes to be equipped to play their respective music
-- Allows music boxes to be shimmered into a default Music Box
+1.0.0.2
+- Fixes names of all music boxes
+- All music boxes now use Smart Cursor
+- All music boxes now produce notes when on
+- Changed mod side to Both since this mod adds content
