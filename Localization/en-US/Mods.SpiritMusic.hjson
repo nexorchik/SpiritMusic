@@ -61,6 +61,11 @@ Configs: {
 			Label: Skeletron Prime
 			Tooltip: ""
 		}
+
+		LavaLayer: {
+			Label: Lava Layer
+			Tooltip: ""
+		}
 	}
 }
 
