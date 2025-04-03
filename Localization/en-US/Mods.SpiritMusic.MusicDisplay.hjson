@@ -11,7 +11,7 @@ Blizzard: {
 
 CorruptNight: {
 	DisplayName: Nightmare Fuel (Corruption Night Theme)
-	Author: "{$BySalvati}"
+	Author: "{$BySalvati}, {$Sbubby}"
 }
 
 CrimsonNight: {
@@ -62,4 +62,9 @@ SpiderCave: {
 SkeletronPrime: {
 	DisplayName: Thermite Assault (Skeletron Prime Theme)
 	Author: "{$BySalvati}, {$Sbubby}"
+}
+
+LavaLayer: {
+	DisplayName: Thermite Assault (Skeletron Prime Theme)
+	Author: "{$BySbubby}"
 }

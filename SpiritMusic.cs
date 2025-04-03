@@ -21,6 +21,7 @@ public class SpiritMusic : Mod
         LoadMusicBox("SkeletronPrimeBox", "Sounds/Music/SkeletronPrime");
         LoadMusicBox("SnowNightBox", "Sounds/Music/SnowNight");
         LoadMusicBox("SpiderCaveBox", "Sounds/Music/SpiderCave");
+        LoadMusicBox("LavaLayerBox", "Sounds/Music/LavaLayer");
 
         if (!ModLoader.TryGetMod("MusicDisplay", out Mod display))
             return;

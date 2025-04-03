@@ -59,12 +59,12 @@ Configs: {
 
 		SkeletronPrime: {
 			Label: Skeletron Prime
-			Tooltip: ""
+			Tooltip: Toggles Skeletron Prime's ("Thermite Assault") music.
 		}
 
 		LavaLayer: {
 			Label: Lava Layer
-			Tooltip: ""
+			Tooltip: Toggles the Lava Layer's ("Magmatic Depths") music.
 		}
 	}
 }
@@ -127,6 +127,11 @@ Items: {
 
 	SpiderCaveBoxItem: {
 		DisplayName: Music Box (Spider Cave)
+		Tooltip: ""
+	}
+
+	LavaLayerBoxItem: {
+		DisplayName: Music Box (Lava Layer)
 		Tooltip: ""
 	}
 }
