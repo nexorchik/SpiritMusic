@@ -65,6 +65,11 @@ SkeletronPrime: {
 }
 
 LavaLayer: {
-	DisplayName: Thermite Assault (Skeletron Prime Theme)
+	DisplayName: Magmatic Depths (Lava Layer Theme)
+	Author: "{$BySbubby}"
+}
+
+LavaLayer: {
+	DisplayName: Radiant Grotto (Neon Moss Theme)
 	Author: "{$BySbubby}"
 }

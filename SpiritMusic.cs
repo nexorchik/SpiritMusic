@@ -48,6 +48,7 @@ public class SpiritMusic : Mod
         AddMusic("SpiderCave");
         AddMusic("SkeletronPrime");
         AddMusic("LavaLayer");
+        AddMusic("NeonMoss");
     }
 
     private void LoadMusicBox(string name, string path) 
