@@ -66,6 +66,21 @@ Configs: {
 			Label: Lava Layer
 			Tooltip: Toggles the Lava Layer's ("Magmatic Depths") music.
 		}
+
+		NeonMoss: {
+			Label: Neon Moss
+			Tooltip: Toggles the Neon Moss biome's ("Radiant Grotto") music.
+		}
+
+		UndergroundTown: {
+			Label: Underground Town
+			Tooltip: Toggles the Underground Town's ("Subsurface Settlement") music.
+		}
+
+		TownUnderground: {
+			Label: Town Underground
+			Tooltip: ""
+		}
 	}
 }
 

@@ -69,7 +69,12 @@ LavaLayer: {
 	Author: "{$BySbubby}"
 }
 
-LavaLayer: {
+NeonMoss: {
 	DisplayName: Radiant Grotto (Neon Moss Theme)
+	Author: "{$BySbubby}"
+}
+
+TownUnderground: {
+	DisplayName: Subsurface Setllement (Underground Town Theme)
 	Author: "{$BySbubby}"
 }
