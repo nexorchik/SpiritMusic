@@ -72,14 +72,9 @@ Configs: {
 			Tooltip: Toggles the Neon Moss biome's ("Radiant Grotto") music.
 		}
 
-		UndergroundTown: {
+		TownUnderground: {
 			Label: Underground Town
 			Tooltip: Toggles the Underground Town's ("Subsurface Settlement") music.
-		}
-
-		TownUnderground: {
-			Label: Town Underground
-			Tooltip: ""
 		}
 	}
 }

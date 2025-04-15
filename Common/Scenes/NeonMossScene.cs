@@ -6,8 +6,8 @@ namespace SpiritMusic.Common.Scenes;
 internal class NeonMossScene : ModSceneEffect
 {
     public override int Music => MusicLoader.GetMusicSlot(Mod, "Sounds/Music/NeonMoss");
-    public override SceneEffectPriority Priority => SceneEffectPriority.BiomeLow;
-    public override bool IsSceneEffectActive(Player player) => ModContent.GetInstance<MusicConfig>().NeonMoss && ModContent.GetInstance<NeonMossTileCounter>().InNeonMoss;
+    public override SceneEffectPriority Priority => SceneEffectPriority.BiomeMedium;
+    public override bool IsSceneEffectActive(Player player) => ModContent.GetInstance<MusicConfig>().NeonMoss && player.position.Y / 16 >= Main.worldSurface && ModContent.GetInstance<NeonMossTileCounter>().InNeonMoss;
 }
 
 public class NeonMossTileCounter : ModSystem
