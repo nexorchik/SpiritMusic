@@ -144,4 +144,9 @@ Items: {
 		DisplayName: Music Box (Lava Layer)
 		Tooltip: ""
 	}
+
+	NeonMossBoxItem: {
+		DisplayName: Music Box (Neon Moss)
+		Tooltip: ""
+	}
 }

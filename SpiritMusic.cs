@@ -22,6 +22,8 @@ public class SpiritMusic : Mod
         LoadMusicBox("SnowNightBox", "Sounds/Music/SnowNight");
         LoadMusicBox("SpiderCaveBox", "Sounds/Music/SpiderCave");
         LoadMusicBox("LavaLayerBox", "Sounds/Music/LavaLayer");
+        LoadMusicBox("NeonMossBox", "Sounds/Music/NeonMoss");
+        //LoadMusicBox("TownUndergroundBox", "Sounds/Music/TownUnderground");
 
         if (!ModLoader.TryGetMod("MusicDisplay", out Mod display))
             return;
