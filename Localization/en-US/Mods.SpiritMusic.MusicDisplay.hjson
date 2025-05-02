@@ -75,6 +75,6 @@ NeonMoss: {
 }
 
 TownUnderground: {
-	DisplayName: Subsurface Setllement (Underground Town Theme)
+	DisplayName: Subsurface Settlement (Underground Town Theme)
 	Author: "{$BySbubby}"
 }

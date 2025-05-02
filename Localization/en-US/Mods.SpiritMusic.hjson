@@ -149,4 +149,9 @@ Items: {
 		DisplayName: Music Box (Neon Moss)
 		Tooltip: ""
 	}
+
+	UndergroundTownBoxItem: {
+		DisplayName: Music Box (Underground Town)
+		Tooltip: ""
+	}
 }
