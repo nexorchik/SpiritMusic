@@ -6,14 +6,14 @@ internal class LavaScene : ModSceneEffect
     public override SceneEffectPriority Priority => SceneEffectPriority.BiomeLow;
 
     public override bool IsSceneEffectActive(Player player) => ModContent.GetInstance<MusicConfig>().LavaLayer
-            && player.position.Y / 16 >= (Main.maxTilesY - (Main.maxTilesY * .28f))
-            && !player.ZoneJungle
-            && !player.ZoneCorrupt
-            && !player.ZoneHallow
-            && !player.ZoneCrimson
-            && !player.ZoneMarble
-            && !player.ZoneGranite
-            && !player.ZoneGlowshroom
-            && !player.ZoneSnow
-            && !player.ZoneUndergroundDesert;
+        && player.position.Y / 16 >= Main.maxTilesY * 0.72f
+        && !player.ZoneJungle
+        && !player.ZoneCorrupt
+        && !player.ZoneHallow
+        && !player.ZoneCrimson
+        && !player.ZoneMarble
+        && !player.ZoneGranite
+        && !player.ZoneGlowshroom
+        && !player.ZoneSnow
+        && !player.ZoneUndergroundDesert;
 }

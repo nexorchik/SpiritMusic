@@ -3,6 +3,7 @@ Salvati: Salvati
 Sbubby: Sbubby
 By: By
 BySalvati: "{$By} {$Salvati}"
+BySbubby: "{$By} {$Sbubby}"
 
 Blizzard: {
 	DisplayName: Shivering Storms (Blizzard Theme)
