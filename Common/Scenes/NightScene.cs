@@ -42,5 +42,5 @@ internal class NightScene : ModSceneEffect
     }
 
     public override SceneEffectPriority Priority => ValidCorruption || ValidCrimson ? SceneEffectPriority.BiomeHigh : SceneEffectPriority.BiomeMedium;
-    public override bool IsSceneEffectActive(Player player) => !Main.dayTime && (ValidHallow || ValidCrimson || ValidCorruption || ValidSnow || ValidDesert);
+    public override bool IsSceneEffectActive(Player player) => !Main.IsItStorming && !Main.dayTime && (ValidHallow || ValidCrimson || ValidCorruption || ValidSnow || ValidDesert);
 }

@@ -21,6 +21,9 @@ public class SpiritMusic : Mod
         LoadMusicBox("SkeletronPrimeBox", "Sounds/Music/SkeletronPrime");
         LoadMusicBox("SnowNightBox", "Sounds/Music/SnowNight");
         LoadMusicBox("SpiderCaveBox", "Sounds/Music/SpiderCave");
+        LoadMusicBox("LavaLayerBox", "Sounds/Music/LavaLayer");
+        LoadMusicBox("NeonMossBox", "Sounds/Music/NeonMoss");
+        LoadMusicBox("UndergroundTownBox", "Sounds/Music/TownUnderground");
 
         if (!ModLoader.TryGetMod("MusicDisplay", out Mod display))
             return;
@@ -46,6 +49,9 @@ public class SpiritMusic : Mod
         AddMusic("SnowNight");
         AddMusic("SpiderCave");
         AddMusic("SkeletronPrime");
+        AddMusic("LavaLayer");
+        AddMusic("NeonMoss");
+        AddMusic("TownUnderground");
     }
 
     private void LoadMusicBox(string name, string path) 

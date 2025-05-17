@@ -44,4 +44,13 @@ internal class MusicConfig : ModConfig
 
     [DefaultValue(true)]
     public bool SkeletronPrime { get; set; }
+
+    [DefaultValue(true)]
+    public bool LavaLayer { get; set; }
+
+    [DefaultValue(true)]
+    public bool NeonMoss { get; set; }
+
+    [DefaultValue(true)]
+    public bool TownUnderground { get; set; }
 }
