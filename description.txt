@@ -1,23 +1,23 @@
 --- Spirit Music ---
+
+This mod aims to improve your Terraria experience by adding music to places that don't have it - weathers, events, vanilla biomes and more.
+Currently, this mod has 15 tracks sprinkled all over the world.
+
+You can turn off each individual track in the config too, if you only want a selection of the tracks.
+This mod also supports Music Display.
+
+--- Credits ---
+
 music by salvati & sbubby
 icon by sal
 programming by gabehaswon
 
-This mod contains all of the music composed by Salvati and Sbubby for the Spirit Mod, now Spirit Classic and Spirit Reforged, that fits in base game.
-Both of the aforementioned mods will continue having their own music for their biomes, events, and so on.
-
-This mod also supports Music Display.
-
 Check out Salvati and Sbubby! Fantastic musicians.
 
---
-Salvati:
+-- Salvati --
 YouTube: https://www.youtube.com/@cyndacat76
 SoundCloud: https://soundcloud.com/cyndacat76
---
 
---
-Sbubby:
+-- Sbubby --
 YouTube: https://www.youtube.com/@Sbubby
 SoundCloud: https://soundcloud.com/sbubbyreal
---
