@@ -1,0 +1,86 @@
+ModName: Spirit Music
+Salvati: Salvati
+Sbubby: Sbubby
+By: от
+BySalvati: "{$By} {$Salvati}"
+BySbubby: "{$By} {$Sbubby}"
+
+Blizzard: {
+	DisplayName: Shivering Storms (тема метели)
+	Author: "{$BySalvati}"
+}
+
+CorruptNight: {
+	DisplayName: Nightmare Fuel (тема ночного искажения)
+	Author: "{$BySalvati} и {$Sbubby}"
+}
+
+CrimsonNight: {
+	DisplayName: Razor's Edge (тема ночного багрянца)
+	Author: "{$BySalvati} и {$Sbubby}"
+}
+
+DesertNight: {
+	DisplayName: Kempt Dunes (тема ночной пустыни)
+	Author: "{$BySalvati}"
+}
+
+FrostLegion: {
+	DisplayName: Tougher Chill (тема Морозного легиона)
+	Author: "{$BySalvati}"
+}
+
+Granite: {
+	DisplayName: Resounding Stones (тема гранитной пещеры)
+	Author: "{$BySalvati}"
+}
+
+HallowNight: {
+	DisplayName: Wonderous Landscape (тема ночного освящения)
+	Author: "{$BySalvati}"
+}
+
+MarbleBiome: {
+	DisplayName: Regal Tunnel (тема мраморной пещеры)
+	Author: "{$BySalvati}"
+}
+
+Meteor: {
+	DisplayName: Space Rocks! (тема места падения метеорита)
+	Author: "{$BySalvati}"
+}
+
+SnowNight: {
+	DisplayName: Icy Stars (тема ночных снегов)
+	Author: "{$BySalvati}"
+}
+
+SpiderCave: {
+	DisplayName: Xyresic Horrors (тема паучьего гнезда)
+	Author: "{$BySalvati}"
+}
+
+SkeletronPrime: {
+	DisplayName: Thermite Assault (тема Скелетрона Прайма)
+	Author: "{$BySalvati} и {$Sbubby}"
+}
+
+LavaLayer: {
+	DisplayName: Magmatic Depths (тема пещер на уровне лавы)
+	Author: "{$BySbubby}"
+}
+
+NeonMoss: {
+	DisplayName: Radiant Grotto (тема пещеры светящегося мха)
+	Author: "{$BySbubby}"
+}
+
+TownUnderground: {
+	DisplayName: Subsurface Settlement (тема города в пещерах)
+	Author: "{$BySbubby}"
+}
+
+VictoryDay: {
+	DisplayName: Overworld Alt Alt (тема «Победоносный дня»)
+	Author: "{$BySalvati}"
+}
