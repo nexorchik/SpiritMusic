@@ -81,6 +81,7 @@ Configs: {
 			Label: «Победоносный день»
 			Tooltip: Включает музыкальную тему «Победоносный день»: «Overworld Alt Alt»
 		}
+	}
 }
 
 Items: {
@@ -160,7 +161,7 @@ Items: {
 	}
 
 	VictoryDayBoxItem: {
-		DisplayName:  Музыкальная шкатулка («Победоносный день»)
+		DisplayName: Музыкальная шкатулка («Победоносный день»)
 		Tooltip: ""
 	}
 }

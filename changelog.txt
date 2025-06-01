@@ -1,2 +1,2 @@
-v1.0.0.4
-- Added Victory Day theme
+v1.0.0.5
+- Added Russian localization (thanks to Nexora)

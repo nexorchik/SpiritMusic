@@ -11,6 +11,7 @@ This mod also supports Music Display.
 music by salvati & sbubby
 icon by sal
 programming by gabehaswon
+russian localization by nexora
 
 Check out Salvati and Sbubby! Fantastic musicians.
 
