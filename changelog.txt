@@ -1,13 +1,2 @@
-v1.0.0.3
-
-Additions
-Added Glowing Moss Music,
-Added Undrground Town Music,
-Added Lava Layer Music,
-Added Music Boxes for all the above tracks,
-Added a Remastered version of the Marble Biome Soundtrack,
-
-Changes
-Fixed thunderstorm music being overriden by Spirit Night Music,
-Fixed Meteorite music cutting out too early,
-Updated some track info and credits
+v1.0.0.4
+- Added Victory Day theme
