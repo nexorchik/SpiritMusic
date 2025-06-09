@@ -1,2 +1,2 @@
-v1.0.0.5
-- Added Russian localization (thanks to Nexora)
+v1.0.0.6
+- Fixed Victory Day box not working properly

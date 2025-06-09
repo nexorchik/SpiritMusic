@@ -24,6 +24,7 @@ public class SpiritMusic : Mod
         LoadMusicBox("LavaLayerBox", "Sounds/Music/LavaLayer");
         LoadMusicBox("NeonMossBox", "Sounds/Music/NeonMoss");
         LoadMusicBox("UndergroundTownBox", "Sounds/Music/TownUnderground");
+        LoadMusicBox("VictoryDayBox", "Sounds/Music/VictoryDay");
 
         if (!ModLoader.TryGetMod("MusicDisplay", out Mod display))
             return;
