@@ -1,2 +1,2 @@
-v1.0.0.6
-- Fixed Victory Day box not working properly
+v1.0.0.7
+- Made Victory Day play only in Forests

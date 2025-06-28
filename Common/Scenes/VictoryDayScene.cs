@@ -7,7 +7,7 @@ internal class VictoryDayScene : ModSceneEffect
     public override int Music => MusicLoader.GetMusicSlot(Mod, "Sounds/Music/VictoryDay");
     public override SceneEffectPriority Priority => SceneEffectPriority.BiomeLow;
     public override bool IsSceneEffectActive(Player player) => player.ZoneOverworldHeight && ModContent.GetInstance<VictoryDaySystem>().VictoryDay 
-        && ModContent.GetInstance<MusicConfig>().VictoryDay;
+        && ModContent.GetInstance<MusicConfig>().VictoryDay && player.ZoneForest;
 }
 
 public class VictoryDaySystem : ModSystem
