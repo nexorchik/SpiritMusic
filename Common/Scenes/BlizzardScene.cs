@@ -2,7 +2,7 @@
 
 internal class BlizzardScene : ModSceneEffect
 {
-    public override int Music => MusicLoader.GetMusicSlot(Mod, "Sounds/Music/Blizzard");
+    public override int Music => MusicLoader.GetMusicSlot(Mod, SpiritMusic.SwapMusic ? "Sounds/Music/OtherworldBlizzard" : "Sounds/Music/Blizzard");
     public override SceneEffectPriority Priority => SceneEffectPriority.BiomeMedium;
 
     public override bool IsSceneEffectActive(Player player) => ModContent.GetInstance<MusicConfig>().Blizzard

@@ -2,11 +2,20 @@ global using Terraria.ModLoader;
 global using Terraria;
 
 using Terraria.Localization;
+using System.Runtime.CompilerServices;
 
 namespace SpiritMusic;
 
 public class SpiritMusic : Mod
 {
+    /// <summary>
+    /// Gets if Otherworld Music is turned on. <see cref="Main.swapMusic"/> is private for some reason.
+    /// </summary>
+    public static bool SwapMusic => GetSwapMusic(null);
+
+    [UnsafeAccessor(UnsafeAccessorKind.StaticField, Name = "swapMusic")]
+    private static extern ref bool GetSwapMusic(Main main);
+
     public override void PostSetupContent()
     {
         LoadMusicBox("BlizzardBox", "Sounds/Music/Blizzard");
@@ -25,6 +34,7 @@ public class SpiritMusic : Mod
         LoadMusicBox("NeonMossBox", "Sounds/Music/NeonMoss");
         LoadMusicBox("UndergroundTownBox", "Sounds/Music/TownUnderground");
         LoadMusicBox("VictoryDayBox", "Sounds/Music/VictoryDay");
+        LoadMusicBox("OtherworldBlizzardBox", "Sounds/Music/OtherworldBlizzard");
 
         if (!ModLoader.TryGetMod("MusicDisplay", out Mod display))
             return;
@@ -54,6 +64,7 @@ public class SpiritMusic : Mod
         AddMusic("NeonMoss");
         AddMusic("TownUnderground");
         AddMusic("VictoryDay");
+        AddMusic("OtherworldBlizzard");
     }
 
     private void LoadMusicBox(string name, string path) 

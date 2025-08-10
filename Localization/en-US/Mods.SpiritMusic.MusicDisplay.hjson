@@ -84,3 +84,8 @@ VictoryDay: {
 	DisplayName: Overworld Alt Alt (Victory Day Theme)
 	Author: "{$BySalvati}"
 }
+
+OtherworldBlizzard: {
+	DisplayName: Otherworldly Blizzard
+	Author: "{$By} Soba Noodles"
+}

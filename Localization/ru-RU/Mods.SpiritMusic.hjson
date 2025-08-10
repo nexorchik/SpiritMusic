@@ -164,4 +164,9 @@ Items: {
 		DisplayName: Музыкальная шкатулка («Победоносный день»)
 		Tooltip: ""
 	}
+
+	OtherworldBlizzardBoxItem: {
+		// DisplayName: Music Box (Otherworld Blizzard)
+		// Tooltip: ""
+	}
 }
