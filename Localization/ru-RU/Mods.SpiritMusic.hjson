@@ -166,7 +166,8 @@ Items: {
 	}
 
 	OtherworldBlizzardBoxItem: {
-		// DisplayName: Music Box (Otherworld Blizzard)
-		// Tooltip: ""
+		DisplayName: Музыкальная шкатулка (Метель — Otherworld)
+		Tooltip: ""
 	}
 }
+
