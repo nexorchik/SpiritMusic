@@ -81,11 +81,12 @@ TownUnderground: {
 }
 
 VictoryDay: {
-	DisplayName: Overworld Alt Alt (тема «Победоносный дня»)
+	DisplayName: Overworld Alt Alt (тема «Победоносного дня»)
 	Author: "{$BySalvati}"
 }
 
 OtherworldBlizzard: {
-	// DisplayName: Otherworldly Blizzard
-	// Author: "{$By} Soba Noodles"
+	DisplayName: Otherworldly Blizzard (альтернативная тема метели)
+	Author: "{$By} Soba Noodles"
 }
+
