@@ -166,7 +166,7 @@ Items: {
 	}
 
 	OtherworldBlizzardBoxItem: {
-		DisplayName: Музыкальная шкатулка (Альтернативная тема метели)
+		DisplayName: Иномирная музыкальная шкатулка (Метель)
 		Tooltip: ""
 	}
 }
